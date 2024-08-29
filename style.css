@@ -19,6 +19,11 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  justify-content: center;
+}
+
+ul{
+  text-align: left;
 }
 
 /* Containers */
@@ -29,17 +34,29 @@ div {
 }
 
 article {
-  padding: 50px 0;
+  padding: 0 auto;
 }
 
 article div {
   text-align: center;
   width: 100%;
+  padding: 10px;
 }
 
+.container{
+  display;flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
 /* Paragraphs */
 p {
   line-height: 1.5;
+  text-align: start;
+}
+section > p {
+  font-size: 14px;
+  text-align: center;
 }
 
 /* Links */
@@ -70,9 +87,21 @@ img {
 /* Footer */
 footer {
   text-align: center;
+  justify-content: center;
 }
 
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+.group{
+  margin: 0 auto;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.item{
+  font-size: 14px;
+  font-style: bold;
+  color: #000000;
 }
