@@ -22,7 +22,7 @@ header {
   justify-content: center;
 }
 
-ul{
+ul {
   text-align: left;
 }
 
@@ -43,8 +43,8 @@ article div {
   padding: 10px;
 }
 
-.container{
-  display;flex;
+.container {
+  display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
@@ -54,6 +54,7 @@ p {
   line-height: 1.5;
   text-align: start;
 }
+
 section > p {
   font-size: 14px;
   text-align: center;
@@ -86,7 +87,7 @@ img {
 
 /* Footer */
 footer {
-  text-align: center;
+  align-items: center;
   justify-content: center;
 }
 
@@ -94,14 +95,16 @@ footer {
 hr {
   border: 1px solid black;
 }
-.group{
+
+.group {
   margin: 0 auto;
   flex: 1;
   flex-direction: column;
   justify-content: space-evenly;
 }
-.item{
+
+.item {
   font-size: 14px;
   font-style: bold;
-  color: #000000;
+  color: black;
 }
